@@ -9,6 +9,7 @@ import { toast } from "sonner";
 export default function Home() {
   const router = useRouter();
   const { data: session } = authClient.useSession();
+  
   const signOut = async () => {
     authClient.signOut({
       fetchOptions: {
@@ -19,6 +20,7 @@ export default function Home() {
       },
     });
   };
+  
   return (
     <div>
       <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>

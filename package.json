@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@arcjet/inspect": "1.0.0-beta.15",
+    "@arcjet/ip": "1.0.0-beta.15",
+    "@arcjet/next": "1.0.0-beta.15",
     "@hookform/resolvers": "^5.2.2",
     "@prisma/adapter-pg": "^7.1.0",
     "@prisma/client": "^7.1.0",
@@ -41,6 +44,7 @@
     "react-dom": "19.2.1",
     "react-hook-form": "^7.68.0",
     "recharts": "2.15.4",
+    "resend": "^6.6.0",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.4.0",
     "vaul": "^1.1.2",
